@@ -1,0 +1,74 @@
+.home-conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+.home-conatiner h1,
+.home-conatiner p {
+  text-align: center;
+}
+.school_vision {
+  display: flex;
+  flex-direction: column;
+}
+.school_vision p {
+  flex-basis: 20%;
+}
+.events-div h2 {
+  text-align: center;
+}
+.student_button {
+  width: 20%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.3em;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgb(34, 34, 110);
+  color: white;
+}
+
+.events {
+  display: flex;
+  gap: 1rem;
+}
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+figcaption {
+  text-align: center;
+  background-color: #001219;
+  color: white;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  opacity: 0.7;
+}
+figcaption:hover {
+  opacity: 0.9;
+}
+.latestNews-div h2 {
+  text-align: center;
+}
+.latestNews {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 600px) {
+  .events,
+  .latestNews {
+    display: flex;
+    flex-direction: column;
+  }
+  .student_button {
+    width: 80%;
+  }
+}
